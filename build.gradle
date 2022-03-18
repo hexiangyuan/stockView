@@ -4,10 +4,12 @@ buildscript {
   repositories {
     jcenter()
     google()
+    mavenCentral()
   }
   dependencies {
     classpath 'com.android.tools.build:gradle:3.4.2'
     classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10'
+    classpath 'com.bytedance.btrace:rhea-gradle-plugin:1.0.1'
 
   }
 }
